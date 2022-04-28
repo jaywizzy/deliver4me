@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!!^elapw7=h8u6sp!z@v(f74)(e6&u8fc5+78317fq0sf!%_e-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pickndrop.deliver4me.xyz', 'www.pickndrop.deliver4me.xyz', '54.164.72.177', 'https://ec2-54-164-72-177.compute-1.amazonaws.com']
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'debug_toolbar',
+    'orders',   
 ]
 
 MIDDLEWARE = [
@@ -117,9 +119,11 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
+# STATICFILES_DIRS = [
+#     BASE_DIR / "static",
+# ]
+
+STATIC_ROOT = BASE_DIR / "static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
