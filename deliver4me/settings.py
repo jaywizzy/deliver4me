@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!!^elapw7=h8u6sp!z@v(f74)(e6&u8fc5+78317fq0sf!%_e-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pickndrop.deliver4me.xyz', 'www.pickndrop.deliver4me.xyz', '54.164.72.177', 'https://ec2-54-164-72-177.compute-1.amazonaws.com']
+ALLOWED_HOSTS = ['pickndrop.deliver4me.xyz', 'www.pickndrop.deliver4me.xyz', '54.164.72.177', 'ec2-54-164-72-177.compute-1.amazonaws.com']
 
 
 # Application definition
