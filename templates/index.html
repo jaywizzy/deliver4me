@@ -42,7 +42,7 @@
     <!-- ===============================================-->
     <main class="main" id="top">
       <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
-        <div class="container"><a class="navbar-brand" href="{% url 'home' %}"><img src="assets/img/gallery/logo.png" height="45" alt="logo" /></a>
+        <div class="container"><a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'assets/img/logo.jpeg' %}" height="80" alt="logo" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
@@ -68,7 +68,7 @@
             </div>
             <div class="col-md-75 col-xl-6 col-xxl-5 text-md-start text-center py-8">
               <h1 class="fw-normal fs-6 fs-xxl-7">A trusted provider of </h1>
-              <h1 class="fw-bolder fs-6 fs-xxl-7 mb-2 strong-text">courier services.</h1>
+              <h1 class="fw-bolder fs-6 fs-xxl-7 mb-2 strong-text">Delivery services.</h1>
               <p class="fs-1 mb-5">We deliver your package(s) safely to <br />your home in a reasonable time <br /> at an affordable price. </p><a class="btn btn-primary me-2" href="#contact-form" role="button">Get started<i class="fas fa-arrow-right ms-2"></i></a>
             </div>
           </div>
@@ -178,31 +178,31 @@
         <div class="container">
           <div class="row">
             <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/awards.png" alt="..." />
+              <div class="text-center"><img src="{% static 'assets/img/icons/awards.png' %}" alt="..." />
                 <h1 class="text-primary mt-4">26+</h1>
                 <h5 class="text-800">Awards won</h5>
               </div>
             </div>
             <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/states.png" alt="..." />
+              <div class="text-center"><img src="{% static 'assets/img/icons/states.png' %}" alt="..." />
                 <h1 class="text-primary mt-4">65+</h1>
                 <h5 class="text-800">States covered</h5>
               </div>
             </div>
             <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/clients.png" alt="..." />
+              <div class="text-center"><img src="{% static 'assets/img/icons/clients.png' %}" alt="..." />
                 <h1 class="text-primary mt-4">689K+</h1>
                 <h5 class="text-800">Happy clients</h5>
               </div>
             </div>
             <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/goods.png" alt="..." />
+              <div class="text-center"><img src="{% static 'assets/img/icons/goods.png' %}" alt="..." />
                 <h1 class="text-primary mt-4">130M+</h1>
                 <h5 class="text-800">Goods delivered</h5>
               </div>
             </div>
             <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/business.png" alt="..." />
+              <div class="text-center"><img src="{% static 'assets/img/icons/business.png' %}" alt="..." />
                 <h1 class="text-primary mt-4">130M+</h1>
                 <h5 class="text-800">Business hours</h5>
               </div>
